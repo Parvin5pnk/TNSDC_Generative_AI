@@ -1,0 +1,4 @@
+The model is defined as a sequential stack of layers.
+It consists of three convolutional layers with ReLU activation followed by max-pooling layers.
+The output from the convolutional layers is flattened and fed into two fully connected (Dense) layers with ReLU activation.
+The output layer has softmax activation with the number of units equal to the number of classes in the dataset.

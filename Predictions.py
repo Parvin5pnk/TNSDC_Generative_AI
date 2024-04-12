@@ -52,4 +52,4 @@ predictions = model.predict(test_image)
 pnk="Hi Welcome to my SIGN LANGUAGE DETECTION Project,Here You can check ASL sign Language"
 label = [pnk,"1","2","3","4","5","6","7","8","9","A","B","C","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 predicted_class = np.argmax(predictions[0])
-print("Predicted class:", label[predicted_class])
+print("Predicted Alphabet is :", label[predicted_class])

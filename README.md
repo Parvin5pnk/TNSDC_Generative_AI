@@ -1,4 +1,5 @@
 # TNSDC_Generative_AI
+# Sign Language Detection
 
 how to run my code:
 There are 3 segement of code ,
